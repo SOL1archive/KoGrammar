@@ -3,4 +3,4 @@
 
 A Project for **Introduction to Text Processing(LIS3813)**
 
-Please keep in mind that the licenses applied to code and model parameters are different.
+Please keep in mind that the licenses applied to codes and model parameters are **different**.
