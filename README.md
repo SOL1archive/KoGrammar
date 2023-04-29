@@ -1,7 +1,10 @@
 # KoGrammar
+
 > Korean Grammar Correction Model based on LLM
 
 > Inspired By Grammarly
+
+This project is ongoing.
 
 Please keep in mind that the licenses applied to codes and model parameters are **different**.
 
