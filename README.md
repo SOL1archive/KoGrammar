@@ -13,5 +13,7 @@ Please keep in mind that the licenses applied to codes and model parameters are 
 - Backbone model candidates: 
     - [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
     - [KoT5(psyche/KoT5)](https://huggingface.co/psyche/KoT5)
-    
-[Technical Introduction](./docs/technical-introduction.md)
+
+## Docs
+- [Technical Introduction](./docs/technical-introduction.md)
+- [TODO](./docs/TODO.md)
