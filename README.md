@@ -2,7 +2,7 @@
 
 > Korean Grammar Correction Model based on LLM
 
-> Inspired By Grammarly
+> A Project for **Introduction to Text Processing(LIS3813)**
 
 This project is ongoing.
 
