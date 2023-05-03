@@ -14,5 +14,4 @@ Please keep in mind that the licenses applied to codes and model parameters are 
     - [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
     - [KoT5(psyche/KoT5)](https://huggingface.co/psyche/KoT5)
     
-## Introduction
-- 한국어는 고립어, 교착어라서 다른 연구가 활발히 된 언어론을 적용한 문법 교정이 어려움
+[Technical Introduction](./docs/technical-introduction.md)
