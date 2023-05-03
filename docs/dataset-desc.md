@@ -11,9 +11,9 @@
 - `train_distil`
     
     `train` 데이터 중 distil될 모델에 사용할 데이터. \
-    구성)
-    - 50% (전체 데이터의 22.5$): `train` 데이터 중 `train_baseline`에 포함된 데이터 
-    - 50% (전체 데이터의 22.5$): `train_baseline`에 포함되지 않은 데이터
+    **구성)**
+    - 50% (전체 데이터의 22.5%): `train` 데이터 중 `train_baseline`에 포함된 데이터 
+    - 50% (전체 데이터의 22.5%): `train_baseline`에 포함되지 않은 데이터
 
 - `valid`
 
