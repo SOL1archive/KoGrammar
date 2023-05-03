@@ -17,3 +17,4 @@ Please keep in mind that the licenses applied to codes and model parameters are 
 ## Docs
 - [Technical Introduction](./docs/technical-introduction.md)
 - [TODO](./docs/TODO.md)
+- [기타 문서](./docs/)
