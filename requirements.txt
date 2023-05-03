@@ -1,2 +1,5 @@
 transformers==4.24.0
 datasets==2.10.1
+evaluate
+rouge_score
+torchmetrics
