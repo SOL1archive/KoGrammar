@@ -1,7 +1,7 @@
 # Model Training
-- [ ] Learning Rate Scheduler
-- [ ] Learning Rate Tuning
-- [ ] Weight Decay (L2 Norm.)
+- [x] Learning Rate Scheduler
+- [x] Learning Rate Tuning
+- [x] Weight Decay (L2 Norm.)
 - [ ] Other Hyperparameter Tunings
 
 # Utils (Unnecessary But Recommanded)
