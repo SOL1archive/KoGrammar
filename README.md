@@ -8,7 +8,7 @@ This project is ongoing.
 
 Please keep in mind that the licenses applied to codes and model parameters are **different**.
 
-- Dataset: [국립국어원 맞춤법 교정 말뭉치 2022](https://rlkujwkk7.toastcdn.net/93/NIKL_EC_2022_v1.0.pdf)
+- Dataset: [국립국어원 맞춤법 교정 말뭉치 2022](https://corpus.korean.go.kr/request/reausetMain.do?lang=ko#down)
 
 - Backbone model candidates: 
     - [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
