@@ -3,3 +3,5 @@ datasets==2.10.1
 evaluate
 rouge_score
 torchmetrics
+nltk
+rouge
