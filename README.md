@@ -6,13 +6,36 @@
 
 This project is ongoing.
 
-Please keep in mind that the licenses applied to codes and model parameters are **different**.
-
 - Dataset: [국립국어원 맞춤법 교정 말뭉치 2022](https://corpus.korean.go.kr/request/reausetMain.do?lang=ko#down)
 
-- Backbone model candidates: 
-    - [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
-    - [KoT5(psyche/KoT5)](https://huggingface.co/psyche/KoT5)
+- Backbone Model: [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
+
+## Model
+- [Baseline Model Link(HuggingFace)](https://huggingface.co/theSOL1/kogrammar-base)
+
+## How To Use
+- Requirements
+    ```
+    torch
+    transformers
+    ```
+
+- Inference
+    ```python
+    from transformers import BartConfig
+    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+    from transformers import pipeline
+    
+    checkpoint = 'theSOL1/kogrammar-base'
+    tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+    config = BartConfig(checkpoint)
+    model = AutoModelForSeq2SeqLM.from_pretrained(config, device_map='auto')
+    pipe = pipeline('text2text-generation', model=model, tokenizer=tokenizer)
+    
+    sample_text = 'ㄴㅏ는 ㄱㅏ끔 눈물을흘린다'
+    corrected_text = pipe(sample_text)
+    print(corrected_text)
+    ```
 
 ## Docs
 - [Technical Introduction](./docs/technical-introduction.md)
