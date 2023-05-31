@@ -11,7 +11,7 @@ This project is ongoing.
 - Backbone Model: [KoBART(gogamza/kobart-base-v2)](https://huggingface.co/gogamza/kobart-base-v2)
 
 ## Model
-- [Baseline Model Link(HuggingFace)](https://huggingface.co/theSOL1/kogrammar-base)
+- [Baseline Model Link (HuggingFace)](https://huggingface.co/theSOL1/kogrammar-base)
 
 ## How To Use
 - Requirements
@@ -28,8 +28,8 @@ This project is ongoing.
     
     checkpoint = 'theSOL1/kogrammar-base'
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-    config = BartConfig(checkpoint)
-    model = AutoModelForSeq2SeqLM.from_pretrained(config, device_map='auto')
+    config = BartConfig.from_pretrained(checkpoint)
+    model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, config=config, device_map='auto')
     pipe = pipeline('text2text-generation', model=model, tokenizer=tokenizer)
     
     sample_text = 'ㄴㅏ는 ㄱㅏ끔 눈물을흘린다'
