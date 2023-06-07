@@ -12,6 +12,8 @@ This project is ongoing.
 
 ## Model
 - [Baseline Model Link (HuggingFace)](https://huggingface.co/theSOL1/kogrammar-base)
+- [Distilled Model Link (HuggingFace)](https://huggingface.co/theSOL1/kogrammar-distil)
+- [Tiny Distilled Model Link (HuggingFace)](https://huggingface.co/theSOL1/kogrammar-tiny-distil)
 
 ## How To Use
 - Requirements
